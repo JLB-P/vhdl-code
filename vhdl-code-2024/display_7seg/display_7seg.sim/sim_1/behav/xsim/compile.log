@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/repo/vhdl-code-2024/display_7seg/display_7seg.srcs/sources_1/new/X7segb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'X7segb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/repo/vhdl-code-2024/display_7seg/display_7seg.srcs/sim_1/new/X7segb_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'X7segb_tb'

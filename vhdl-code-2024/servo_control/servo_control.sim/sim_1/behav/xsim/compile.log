@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/repo/vhdl-code-2024/servo_control/servo_control.srcs/sources_1/new/servo_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'servo_control'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/repo/vhdl-code-2024/servo_control/servo_control.srcs/sim_1/new/servo_control_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'servo_control_top'

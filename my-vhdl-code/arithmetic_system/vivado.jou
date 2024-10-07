@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Aug 14 14:40:40 2023
+# Process ID: 5068
+# Current directory: C:/repo/my-vhdl-code/arithmetic_system
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21180 C:\repo\my-vhdl-code\arithmetic_system\arithmetic_system.xpr
+# Log file: C:/repo/my-vhdl-code/arithmetic_system/vivado.log
+# Journal file: C:/repo/my-vhdl-code/arithmetic_system\vivado.jou
+# Running On: jlbpacheco, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 42311 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.xpr
+update_compile_order -fileset sources_1
+
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top comparator [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/xxx.vhd w ]
+add_files -fileset sim_1 C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/xxx.vhd
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/xxx.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/xxx.vhd
+file delete -force C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.srcs/sim_1/new/xxx.vhd
+launch_simulation
+source arithmetic_system_top_tb.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top comparator_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source comparator_tb.tcl
+close_sim
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1

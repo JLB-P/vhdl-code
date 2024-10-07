@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Nov  8 15:28:42 2022
+# Process ID: 25156
+# Current directory: C:/repo/my-vhdl-code/arithmetic_system
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20948 C:\repo\my-vhdl-code\arithmetic_system\arithmetic_system.xpr
+# Log file: C:/repo/my-vhdl-code/arithmetic_system/vivado.log
+# Journal file: C:/repo/my-vhdl-code/arithmetic_system\vivado.jou
+# Running On: jlb, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 7952 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/repo/my-vhdl-code/arithmetic_system/arithmetic_system.xpr
+update_compile_order -fileset sources_1

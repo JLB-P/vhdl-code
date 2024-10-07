@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../servo_control.srcs/sources_1/new/servo_control.vhd" \
+"../../../../servo_control.srcs/sim_1/new/servo_control_top.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../mealy_and_moore_fsm.srcs/sources_1/imports/new/fsm_mealy.vhd" \
+"../../../../mealy_and_moore_fsm.srcs/sources_1/imports/new/fsm_moore.vhd" \
+"../../../../mealy_and_moore_fsm.srcs/sources_1/imports/new/top_mealy_moore_fsm.vhd" \
+"../../../../mealy_and_moore_fsm.srcs/sim_1/imports/new/mealy_moore_fsm_tb.vhd" \
+
+# Do not sort compile order
+nosort

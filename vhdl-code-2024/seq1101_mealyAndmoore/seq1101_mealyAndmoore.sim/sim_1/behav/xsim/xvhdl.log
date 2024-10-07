@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/repo/vhdl-code-2024/seq1101_mealyAndmoore/seq1101_mealyAndmoore.srcs/sources_1/new/mealy.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mealy'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/repo/vhdl-code-2024/seq1101_mealyAndmoore/seq1101_mealyAndmoore.srcs/sim_1/new/mealy_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mealy_tb'
